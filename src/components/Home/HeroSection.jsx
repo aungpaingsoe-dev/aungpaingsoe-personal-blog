@@ -3,7 +3,6 @@ import { PiArrowFatDown } from "react-icons/pi";
 import homeData from "../../server/home.json";
 
 const HeroSection = () => {
-    console.log(homeData)
     return (
         <div id="home" className=' w-[98%] md:w-[65%] mx-auto h-screen flex gap-5 md:gap-0 flex-col-reverse md:flex-row items-center relative '>
             <div className=' basis-1/2 '>

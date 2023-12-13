@@ -25,7 +25,7 @@ const PortfolioSection = () => {
                     className=' mx-auto text-center mb-5 md:mb-8 md:w-1/2 '>
                     Embracing constraints, I've given my best. This is all I can do, a testament to determination in the face of challenges.
                 </motion.div>
-                <div className=' flex flex-wrap '>
+                <div className=' w-full flex flex-wrap '>
                     {
                         portfolioData?.slice(0,6)?.map(portfolio => {
                             return (
