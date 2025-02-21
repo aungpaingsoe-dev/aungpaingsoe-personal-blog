@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Shadcn + Platzi: Admin Template",
-    "image_url": "/images/projects/Platzi + Shadcn Admin.png",
+    "image_url": "/images/projects/platziadmin.png",
     "description": "A full-stack admin dashboard template built with React, Shadcn, and Tailwind CSS. Designed as a reference for scalable admin panels with ready-to-use components.",
     "project_url": "https://platzi-shadcn-admin.netlify.app/dashboard",
     "technologies": ["React", "Tailwind"]
