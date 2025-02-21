@@ -1,29 +1,30 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from "react";
+import { motion } from "framer-motion";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import { CiServer } from "react-icons/ci";
 import { VscCommentUnresolved } from "react-icons/vsc";
 import { LiaUserTieSolid } from "react-icons/lia";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import { PiProjectorScreen } from "react-icons/pi";
-import skillData from "../../server/skills.json"
+import skillData from "../../server/skills.json";
 
 const SkillSection = () => {
   return (
     <>
-      <div id='skills'></div>
-      <div className=" w-[95%] md:w-[65%] mx-auto my-10 md:my-20 " >
+      <div id="skills"></div>
+      <div className=" w-[95%] md:w-[65%] mx-auto my-10 md:my-20 ">
         <motion.div
           viewport={{ once: true }}
           initial={{ y: 10, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ type: "spring", bounce: 0.6, delay: 0.2 }}
-          className='lobster-tow-font text-3xl text-center mb-5 md:mb-8 underline decoration-wavy underline-offset-4 decoration-primary '>
+          className="lobster-tow-font text-3xl text-center mb-5 md:mb-8 underline decoration-wavy underline-offset-4 decoration-primary "
+        >
           What can I do ?
         </motion.div>
-        <div className=' flex flex-col-reverse md:flex-row gap-2 md:gap-5 '>
-          <div className=' basis-1/2 '>
-            <div className=' flex flex-wrap justify-start '>
+        <div className=" flex flex-col-reverse md:flex-row gap-2 md:gap-5 ">
+          <div className=" basis-1/2 ">
+            <div className=" flex flex-wrap justify-start ">
               <div className=" basis-1/3 p-[2px] md:p-2 ">
                 <motion.div
                   initial={{ opacity: 0, scale: 0 }}
@@ -37,15 +38,16 @@ const SkillSection = () => {
                       type: "spring",
                       damping: 5,
                       stiffness: 100,
-                      restDelta: 0.001
-                    }
+                      restDelta: 0.001,
+                    },
                   }}
-                  className=' skill-card flex flex-col justify-center items-center gap-1 h-full text-sm '>
+                  className=" skill-card flex flex-col justify-center items-center gap-1 h-full text-sm "
+                >
                   <div>
-                    <IoCodeSlashOutline className=' text-3xl ' />
+                    <IoCodeSlashOutline className=" text-3xl " />
                   </div>
-                  <div className=' text-center text-xs md:text-sm '>
-                    Web Development
+                  <div className=" text-center text-xs md:text-sm ">
+                    Front End
                   </div>
                 </motion.div>
               </div>
@@ -62,16 +64,15 @@ const SkillSection = () => {
                       type: "spring",
                       damping: 5,
                       stiffness: 100,
-                      restDelta: 0.001
-                    }
+                      restDelta: 0.001,
+                    },
                   }}
-                  className=' skill-card flex flex-col justify-center items-center gap-1 h-full text-sm '>
+                  className=" skill-card flex flex-col justify-center items-center gap-1 h-full text-sm "
+                >
                   <div>
-                    <CiServer className=' text-3xl ' />
+                    <CiServer className=" text-3xl " />
                   </div>
-                  <div className=' text-xs md:text-sm '>
-                    DevOps
-                  </div>
+                  <div className=" text-xs md:text-sm ">Back End</div>
                 </motion.div>
               </div>
               <div className=" basis-1/3 p-[2px] md:p-2 ">
@@ -87,16 +88,15 @@ const SkillSection = () => {
                       type: "spring",
                       damping: 5,
                       stiffness: 100,
-                      restDelta: 0.001
-                    }
+                      restDelta: 0.001,
+                    },
                   }}
-                  className=' skill-card flex flex-col justify-center items-center gap-1 h-full text-sm '>
+                  className=" skill-card flex flex-col justify-center items-center gap-1 h-full text-sm "
+                >
                   <div>
-                    <LiaUserTieSolid className=' text-3xl ' />
+                    <LiaUserTieSolid className=" text-3xl " />
                   </div>
-                  <div className=' text-xs md:text-sm '>
-                    Leadership
-                  </div>
+                  <div className=" text-xs md:text-sm ">Leadership</div>
                 </motion.div>
               </div>
               <div className=" basis-1/3 p-[2px] md:p-2 ">
@@ -112,16 +112,15 @@ const SkillSection = () => {
                       type: "spring",
                       damping: 5,
                       stiffness: 100,
-                      restDelta: 0.001
-                    }
+                      restDelta: 0.001,
+                    },
                   }}
-                  className=' skill-card flex flex-col justify-center items-center gap-1 h-full text-sm '>
+                  className=" skill-card flex flex-col justify-center items-center gap-1 h-full text-sm "
+                >
                   <div>
-                    <VscCommentUnresolved className=' text-3xl ' />
+                    <VscCommentUnresolved className=" text-3xl " />
                   </div>
-                  <div className=' text-xs md:text-sm '>
-                    Problem Solving
-                  </div>
+                  <div className=" text-xs md:text-sm ">Problem Solving</div>
                 </motion.div>
               </div>
               <div className=" basis-1/3 p-[2px] md:p-2 ">
@@ -137,16 +136,15 @@ const SkillSection = () => {
                       type: "spring",
                       damping: 5,
                       stiffness: 100,
-                      restDelta: 0.001
-                    }
+                      restDelta: 0.001,
+                    },
                   }}
-                  className=' skill-card flex flex-col justify-center items-center gap-1 h-full text-sm '>
+                  className=" skill-card flex flex-col justify-center items-center gap-1 h-full text-sm "
+                >
                   <div>
-                    <MdOutlineBusinessCenter className=' text-3xl ' />
+                    <MdOutlineBusinessCenter className=" text-3xl " />
                   </div>
-                  <div className=' text-xs md:text-sm '>
-                    Business Logic
-                  </div>
+                  <div className=" text-xs md:text-sm ">Business Logic</div>
                 </motion.div>
               </div>
               <div className=" basis-1/3 p-[2px] md:p-2 ">
@@ -162,29 +160,31 @@ const SkillSection = () => {
                       type: "spring",
                       damping: 5,
                       stiffness: 100,
-                      restDelta: 0.001
-                    }
+                      restDelta: 0.001,
+                    },
                   }}
-                  className=' skill-card flex flex-col justify-center items-center gap-1 h-full text-sm '>
+                  className=" skill-card flex flex-col justify-center items-center gap-1 h-full text-sm "
+                >
                   <div>
-                    <PiProjectorScreen className=' text-3xl ' />
+                    <PiProjectorScreen className=" text-3xl " />
                   </div>
-                  <div className=' text-xs md:text-sm '>
-                    Project Management
-                  </div>
+                  <div className=" text-xs md:text-sm ">Project Management</div>
                 </motion.div>
               </div>
             </div>
           </div>
-          <div className=' basis-1/2 '>
+          <div className=" basis-1/2 ">
             <motion.div
               initial={{ y: 10, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ type: "spring", bounce: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
-              className=' text-start mt-2 '
+              className=" text-start mt-2 "
             >
-              <span className=' text-secondary italic font-medium '>Greetings</span> , { skillData.about_me } 
+              <span className=" text-secondary italic font-medium ">
+                Greetings
+              </span>{" "}
+              , {skillData.about_me}
             </motion.div>
             <motion.div
               initial={{ y: 10, opacity: 0 }}
@@ -192,17 +192,16 @@ const SkillSection = () => {
               transition={{ type: "spring", bounce: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
             >
-              <div className=' my-2 text-secondary font-medium '>My Working Experience</div>
-              <div>
-                { skillData.work_experience }
+              <div className=" my-2 text-secondary font-medium ">
+                My Working Experience
               </div>
+              <div>{skillData.work_experience}</div>
             </motion.div>
           </div>
         </div>
       </div>
     </>
+  );
+};
 
-  )
-}
-
-export default SkillSection
+export default SkillSection;

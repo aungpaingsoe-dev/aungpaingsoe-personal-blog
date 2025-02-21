@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import { FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import contactData from "../../server/contact.json"
 
 const Footer = () => {
@@ -18,13 +18,13 @@ const Footer = () => {
           </a>
         </ul>
         <ul className='hover:text-secondary cursor-pointer ' >
-          <a href={`${contactData.instagram_url}`} target='_blank'>
-            <FaInstagram className=' text-2xl ' />
+          <a href={`${contactData.linkedin_url}`} target='_blank'>
+            <FaLinkedin className=' text-2xl ' />
           </a>
         </ul>
         <ul className='hover:text-secondary cursor-pointer '>
           <a href={`${contactData.facebook_url}`} target='_blank'>
-            <FaFacebook className=' text-2xl ' />
+            <FaYoutube className=' text-2xl ' />
           </a>
         </ul>
       </motion.div>
@@ -34,7 +34,7 @@ const Footer = () => {
         transition={{ type: "spring", bounce: 0.6, delay: 0.7 }}
         viewport={{ once: true }}
       >
-        Copyright © All rights reserved by : <span className=' text-secondary '>PhyoZ</span>
+        Copyright © All rights reserved by : <span className=' text-secondary '>APS</span>
       </motion.div>
     </div>
   )

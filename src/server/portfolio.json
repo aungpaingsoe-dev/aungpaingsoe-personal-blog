@@ -1,44 +1,66 @@
 [
-    {
-        "id": 1,
-        "title": "Project One",
-        "image_url": "/images/projects/project1.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
-    },
-    {
-        "id": 2,
-        "title": "Project Two",
-        "image_url": "/images/projects/project2.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
-    },
-    {
-        "id": 3,
-        "title": "Project Three",
-        "image_url": "/images/projects/project3.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
-    },
-    {
-        "id": 4,
-        "title": "Project Four",
-        "image_url": "/images/projects/project4.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
-    },
-    {
-        "id": 5,
-        "title": "Project Five",
-        "image_url": "/images/projects/project5.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
-    },
-    {
-        "id": 6,
-        "title": "Project Six",
-        "image_url": "/images/projects/project6.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
-    }
+  {
+    "id": 1,
+    "title": "Shadcn + Platzi: Admin Template",
+    "image_url": "/images/projects/Platzi + Shadcn Admin.png",
+    "description": "A full-stack admin dashboard template built with React, Shadcn, and Tailwind CSS. Designed as a reference for scalable admin panels with ready-to-use components.",
+    "project_url": "https://platzi-shadcn-admin.netlify.app/dashboard",
+    "technologies": ["React", "Tailwind"]
+  },
+  {
+    "id": 2,
+    "title": "Pets Heaven: Assignment Project",
+    "image_url": "/images/projects/Pets Heaven.png",
+    "description": "A creative design project developed for a school assignment. It showcases an engaging UI for a fictional pet adoption platform, built with React and Tailwind CSS.",
+    "project_url": "https://pets-dun-nine.vercel.app",
+    "technologies": ["React", "Tailwind"]
+  },
+  {
+    "id": 3,
+    "title": "Coursia: E-learning Platform",
+    "image_url": "/images/projects/Coursia Demo.png",
+    "description": "An e-learning platform built with Nuxt, Laravel, and Bootstrap. It features video streaming, quizzes, and certification functionalities for an engaging learning experience.",
+    "project_url": "https://demo.coursia.ai",
+    "technologies": ["Nuxt", "BootStrap", "Laravel"]
+  },
+  {
+    "id": 4,
+    "title": "Myanmar Hemophilia Patient Association",
+    "image_url": "/images/projects/MHAP.png",
+    "description": "A web platform for the Myanmar Hemophilia Patient Association, built with React, Laravel, and Ant Design. It offers resources, community support, and patient information.",
+    "project_url": "https://mhap.vercel.app",
+    "technologies": ["React", "Tailwind", "Ant Design", "Laravel"]
+  },
+  {
+    "id": 5,
+    "title": "Our Team",
+    "image_url": "/images/projects/Our Team.png",
+    "description": "A dynamic team management platform built with React, Shadcn, and Laravel. It helps organizations showcase team members, roles, and collaborations with an intuitive UI.",
+    "project_url": "https://team-beta-one.vercel.app",
+    "technologies": ["React", "Tailwind", "Shadcn", "Ant Design", "Laravel"]
+  },
+  {
+    "id": 6,
+    "title": "Winfinance: Loan Management System",
+    "image_url": "/images/projects/Winfinance.png",
+    "description": "A robust loan management system developed with Vue, Laravel, and Bootstrap. It streamlines loan applications, approvals, and user management for financial services.",
+    "project_url": "https://www.winfinance.com.mm",
+    "technologies": ["Vue", "BootStrap", "Laravel", "Firebase"]
+  },
+  {
+    "id": 7,
+    "title": "Acodemy: Learning Platform",
+    "image_url": "/images/projects/Acodemy.png",
+    "description": "This is an interactive e-learning platform built with React, Tailwind CSS, and Ant Design for a sleek UI, and Laravel for a robust back-end. It offers video courses, quizzes, and progress tracking, making online learning simple and engaging. 🚀📚",
+    "project_url": "https://acodemymm.com/",
+    "technologies": ["React", "Tailwind", "Ant Design", "Laravel"]
+  },
+  {
+    "id": 8,
+    "title": "Desktop Portfolio",
+    "image_url": "/images/projects/Desktop Portfoilo.png",
+    "description": "A unique portfolio website designed in a dashboard-style layout, showcasing skills, projects, and achievements. Built with modern web technologies for a responsive, interactive, and user-friendly experience.",
+    "project_url": "https://os-smoky.vercel.app",
+    "technologies": ["Vue", "Vueuse", "Tailwind", "Firebase"]
+  }
 ]

@@ -16,7 +16,7 @@ html {
 }
 
 .nav-item {
-  @apply border-transparent border-b-4  hover:border-secondary transition-all;
+  @apply border-transparent hover:underline underline-offset-2 decoration-secondary decoration-wavy transition-all;
 }
 
 /* .active {
